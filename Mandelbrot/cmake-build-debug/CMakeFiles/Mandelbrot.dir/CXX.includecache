@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zigal0/dev/Prog/ParProg/OpenMP/Mandelbrot/src/parallel.cpp
+iostream
+-
+fstream
+-
+vector
+-
+complex
+-
+chrono
+-
+omp.h
+-
+
